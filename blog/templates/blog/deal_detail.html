@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block title %} Deals And Offers {% endblock %}
+
+
+
+
+{% block content %}
+
+
+
+
+
+<div class="card text-white bg-dark mb-3 mt-3 ml-2 mr-2 " >
+  <div class="card-header">  {{ object.publish }}</div>
+  <div class="card-body">
+    <h5 class="card-title">{{ object.title }} </h5>
+    <p class="card-text">{{ object.desc }}</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}

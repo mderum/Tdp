@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+<!-- colors  -->
+<!-- purple  #603e94 -->
+
+<!-- yellow #fac32a  -->
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="{% static 'logo.png' %}">
+        </div>
+        <div class="team-content">
+          <h3 class="name">TDP</h3>
+          <h4 class="title">Trick And Deal Palace</h4>
+        </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/groups/trickswithdealspalace/" class="fa fa-facebook" aria-hidden="true"></a></li>
+          <li><a href="https://t.me/Tdp_Steal_Deal" class="fa fa-telegram" aria-hidden="true"></a></li>
+          <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li> -->
+          <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="our-team">
+              <div class="picture">
+                <img class="img-fluid" src="{% static 'dva.png' %}">
+              </div>
+              <div class="team-content">
+                <h3 class="name">DVA</h3>
+                <h4 class="title">Deal Via Admins</h4>
+              </div>
+              <ul class="social">
+                <li><a href="https://m.me/join/AbbPY-NmeD45kcur" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li> -->
+                <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li> -->
+                <!-- <li><a href="https://wa.me/919999965436" class="fa fa-whatsapp" aria-hidden="true"></a></li> -->
+              </ul>
+            </div>
+      </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="{% static 'deal.png' %}">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Deals</h3>
+            <h4 class="title">Great Deals And Offers </h4>
+          </div>
+          <ul class="social">
+            <li><a href="{% url 'deal-all' %}" class="fa fa-link" aria-hidden="true"></a></li>
+            <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li> -->
+            <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li> -->
+            <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li> -->
+          </ul>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="our-team">
+        <div class="picture">
+          <img class="img-fluid" src="{% static 'admin.png' %}">
+        </div>
+        <div class="team-content">
+          <h3 class="name">Admins</h3>
+          <h4 class="title">Group Rules And Admins</h4>
+        </div>
+        <ul class="social">
+          <li><a title="Admins" href="{% url 'admn' %}" class="fa fa-user" aria-hidden="true"></a></li>
+          <li><a title="Rules" href="{% url  'rules' %}" class="fa fa-file" aria-hidden="true"></a></li>
+          <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a></li> -->
+          <!-- <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+{% endblock %}

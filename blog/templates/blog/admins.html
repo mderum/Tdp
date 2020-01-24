@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+<!-- colors  -->
+<!-- purple  #603e94 -->
+
+<!-- yellow #fac32a  -->
+
+<div class="fluid-container" style="background:black; padding:20px">
+
+  <div id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Admins
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+
+        <ul class="list-group">
+          <a href="https://www.facebook.com/sefal.mansuri.5" class="list-group-item "> Sefal </a>
+          <a href="https://www.facebook.com/ramit.taneja20" class="list-group-item">Ramit</a>
+          <a href="https://www.facebook.com/Themightymanoj" class="list-group-item">Manoj</a>
+        </ul>
+
+      </div>
+    </div>
+
+    <hr>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Moderators
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+
+        <div class="list-group">
+          <a href="https://www.facebook.com/nuaman.kadiwala" class="list-group-item "> Nuaman </a>
+          <a href="https://www.facebook.com/Vinodkumar1481" class="list-group-item">Vinod</a>
+          <a href="https://www.facebook.com/s2g007" class="list-group-item">Subham</a>
+          <a href="https://www.facebook.com/mehrishi07" class="list-group-item">Hrishikesh</a>
+          <a href="https://www.facebook.com/mehrishi07" class="list-group-item">Lavitesh</a>
+          <a href="https://www.facebook.com/profile.php?id=100004556744927" class="list-group-item">Erum</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+{% endblock %}
